@@ -1,2 +1,2 @@
 # arzWikiExtracts
-Egyptian Wikipedia 
+Egyptian Wikipedia Extracts 
