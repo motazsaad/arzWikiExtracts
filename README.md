@@ -1,5 +1,5 @@
 # arzWikiExtracts
-Egyptian Wikipedia Extracts
+Documents extracts from [Egyptian Wikipedia](arz.wikipedia.org)
 
 corpus extracts from 20-01-2017 Wikipedia dumps
 
