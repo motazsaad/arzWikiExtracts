@@ -1,13 +1,25 @@
 # Egyptian Wikipedia Extracts
-Documents extracts from [Egyptian Wikipedia](arz.wikipedia.org)
+Documents extracts from [Egyptian Wikipedia](arz.wikipedia.org) downloaded from [Egyptian Wikipedia dumps](https://dumps.wikimedia.org/arzwiki/)
 
-corpus extracts from 20-01-2017 [Egyptian Wikipedia dumps](https://dumps.wikimedia.org/arzwiki/)
-
- [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
+## Instructions 
+1. get the corpus dump 
+```
+wget https://dumps.wikimedia.org/arzwiki/latest/arzwiki-latest-pages-articles.xml.bz2 
+```
+2. extract: 
+```
+python3 arzwiki-latest-pages-articles.xml.bz2 -o 20181020 --json 
+```
+## License
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
  
- This corpus is extracted by [wikiextractor](https://github.com/attardi/wikiextractor)
+This corpus is extracted by [wikiextractor](https://github.com/attardi/wikiextractor)
 
-## Corpus Information
+## corpus extracts from 20-10-2018 
+
+## corpus extracts from 20-01-2017 
+
+### Corpus Information
 
 | documents | words | vocabulary |
 | --- | --- | --- |
