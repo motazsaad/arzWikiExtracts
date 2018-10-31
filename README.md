@@ -6,10 +6,15 @@ Documents extracts from [Egyptian Wikipedia](arz.wikipedia.org) downloaded from 
 ```
 wget https://dumps.wikimedia.org/arzwiki/latest/arzwiki-latest-pages-articles.xml.bz2 
 ```
-2. extract: 
+2. get the tool
 ```
-python3 arzwiki-latest-pages-articles.xml.bz2 -o 20181020 --json 
+git clone https://github.com/attardi/wikiextractor.git
 ```
+3. extract: 
+```
+python3 wikiextractor/WikiExtractor.py arzwiki-latest-pages-articles.xml.bz2 -o 20181020 --json 
+```
+
 ## License
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
  
